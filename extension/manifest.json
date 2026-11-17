@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "SLSR Patcher — TikTok lossless",
+  "version": "1.0.0",
+  "description": "Adds a button on TikTok Studio to patch an MP4 (slsr method) locally before upload. No data leaves your browser.",
+  "permissions": [],
+  "host_permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.tiktok.com/tiktokstudio/*",
+        "https://www.tiktok.com/upload*",
+        "https://www.tiktok.com/creator-center/*"
+      ],
+      "js": ["core.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
