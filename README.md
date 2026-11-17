@@ -85,5 +85,4 @@ normal re-encoded rung.
 ## License
 
 MIT. This is a derivative of `buwryme/tiktok-lossless-upload` (MIT); see `LICENSE`
-for the original copyright and attribution. Replace `<your name>` in `LICENSE`
-before publishing.
+for the original copyright and attribution.
